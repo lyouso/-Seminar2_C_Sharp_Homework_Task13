@@ -6,9 +6,9 @@ void ThirdNumber(string number1)
 {
     if (number1.Length <= 2)
     {
-        Console.WriteLine("Третьей цифры нет");
+        Console.WriteLine(number1 + " >> Третьей цифры нет");
     }
     else {
-        Console.WriteLine(number1[2]);
+        Console.WriteLine(number1 + " >> " + number1[2]);
     }
 }
